@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8ced2307-7b3d-49f4-b915-54038076ced9</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Docker.DotNet" Version="3.125.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+    <PackageReference Include="SharpSvn" Version="1.14001.156" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\SiliconeSealant\" />
+    <Folder Include="Controllers\Authentication\" />
+    <Folder Include="Controllers\Authorization\" />
+    <Folder Include="Controllers\NugetServer\" />
+    <Folder Include="Controllers\SubversionControl\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+  
+</Project>

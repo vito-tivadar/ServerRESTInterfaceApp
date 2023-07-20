@@ -1,0 +1,9 @@
+﻿DOCKER:
+	_client.Secrets
+	_client.Swarm;
+	_client.Tasks;
+	_client.Exec;
+	_client.Plugin;
+	_client.System;
+	_client.Configuration;
+
